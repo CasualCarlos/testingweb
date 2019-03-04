@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+#bodywrapper {
+  max-width: 100%;
+}
+header {
+  background-color: #eaeaea;
+  width: 100%;
+  height: 50px;
+}
+
+.rightheader{
+  width: 100%;
+  padding-top: 10px;
+  float: right;
+  position: absolute;
+}
+
+.rightheader img{
+  float: right;
+  padding-top: -5px;
+  margin-right: 2%;
+  width: 30px;
+}
+
+#shoppingcart {
+  position: sticky;
+  margin-left: 90%;
+  width: 2%;
+}
+#bigimage {
+  display: block;
+  margin-left: 45.6%;
+  margin-bottom: -45px;
+  width: 10%;
+  max-width: 100%;
+  left: -1.8%;
+  position: relative;
+}
+
+#sporticon{
+  width: 25px;
+}
+
+#homeicon {
+  color: white;
+  width: 30px;
+}
+
+.navButton{
+  width: 37px;
+  bottom: 12.5%;
+  left: 1%;
+  background-color: transparent;
+  border: 0px solid;
+  position: fixed;
+  transition: 0.4s ease;
+}
+
+.navButton:hover {
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: 0.4s ease;
+}
+
+.overlayNav {
+  position: absolute;
+  bottom: -220%;
+  left: 160%;
+  background-color: #ec726f;
+  overflow: hidden;
+  width: 2.6px;
+  height: 150px;
+  transition: .4s ease;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.navButton:hover .overlayNav {
+  display: list-item;
+  transition: .4s ease;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  width: 280%;
+  left: 160%;
+  height: 160px;
+}
+
+.textNav {
+  color: white;
+  font-size: 23px;
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  font-family: 'Roboto', Verdana, sans-serif;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.navButton input{
+  cursor: pointer;
+  transition: 0.4s ease;
+  color: #f2f2f2;
+  background-color: transparent;
+   border: 0px solid;
+}
+
+.navButton form{
+  bottom: 50px;
+  position: relative;
+  transition: 0.4s ease;
+  transform:scale(1);
+}
+
+.navButton form:hover{
+  transition: 0.4s ease;
+  transform:scale(1.05);
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  float: left;
+  background-color: #5b9bd5;
+  position: fixed;
+  top: 0;
+  height: 1870px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: 'Roboto', Verdana, sans-serif;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  position: relative;
+  padding-top: 115%;
+  padding-bottom: 120%;
+  padding-right: 30%;
+  padding-left: 30%;
+  text-decoration: none;
+  transition: 0.4s ease;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  transition-duration: 0.4s ease;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #ec726f;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+
+#mainsection {
+  height: 1020px;
+  position: relative;
+  left: 4.15%;
+  top: 5%;
+  width: 95.75%;
+}
+
+.middlewrapper{
+  margin-top: 2%;
+  position: absolute;
+  width: 1200px;
+  margin-left: 19%;
+}
+
+.firstimages #shootshot {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.firstimages #weflyimg{
+  position: absolute;
+  margin-top: 2.5%;
+  width: 54.9%;
+}
+
+.firstimages #backimg{
+  position: absolute;
+  height: 383px;
+  margin-left: -.5%;
+  width: 56%;
+}
+
+.overlayblock img{
+  width: 400px;
+  opacity: 1.0;
+  display: block;
+}
+
+.overlayblock {
+  position: relative;
+  cursor: pointer;
+  display: block;
+  float: left;
+  left: 0.7%;
+  margin-top: 2%;
+  transition: .5s ease;
+}
+
+.overlayblock img{
+  transform: scale(1);
+  height: 450px;
+  transition: 0.5s ease;
+}
+
+.overlayblock:hover img{
+  color: #df4949;
+  transform: scale(0.99);
+}
+
+.overlayblock .color-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #FF0000;
+  opacity: 0;
+  transform: scale(0.99);
+  transition: .5s ease;
+}
+
+.overlayblock .textblock a {
+  font-family: 'Roboto', Verdana, sans-serif;
+  position: absolute;
+  text-decoration: none;
+  bottom: 5%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+.overlayblock .textblock hr{
+  transition: .5s ease;
+}
+
+.overlayblock:hover hr {
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+.overlayblock:hover .color-block {
+  opacity: 0.2;
+}
+
+
+#bottomcenterheren{
+  font-family: 'Roboto', Verdana, sans-serif;
+  position: absolute;
+  top: 58%;
+  color: #282828;
+  left: 53%;
+  transform: translate(-50%, -50%);
+}
+
+.bottomcenter hr{
+  color: white;
+}
+
+
+#bottomcenterkids{
+  font-family: 'Roboto', Verdana, sans-serif;
+  position: absolute;
+  top: 58%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+}
+
+.bottomcenter a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+#bottomcenterdames hr{
+  transition: .5s ease;
+}
+
+#bottomcenterdames:hover hr {
+  margin-left: 15%;
+  margin-right: 15%;
+  transition: .5s ease;
+}
+
+#bottomcenterheren hr{
+  transition: .5s ease;
+}
+
+#bottomcenterheren:hover hr {
+  margin-left: 15%;
+  margin-right: 15%;
+  transition: .5s ease;
+}
+
+#bottomcenterkids hr{
+  transition: .5s ease;
+}
+
+#bottomcenterkids:hover hr {
+  margin-left: 15%;
+  margin-right: 15%;
+  transition: .5s ease;
+}
+.bottomfooter {
+  clear: left;
+  top: 1057px;
+  background-color: #eaeaea;
+  height: 52px;
+  width: 70%;
+  position: absolute;
+}
+
+.bottomfooter>p {
+  font-family: 'Roboto', Verdana, sans-serif;
+  text-align: center;
+  position: relative;
+  top: 16px;
+}
+
+.contact {
+  float: right;
+  background-color: #df4949;
+  width: 30%;
+  margin-left: 70%;
+  top: 1057px;
+  position: absolute;
+  height: 52px;
+}
+
+.contact>p {
+  font-family: 'Roboto', Verdana, sans-serif;
+  text-align: center;
+  color: #f2f2f2;
+  position: relative;
+  top: 16px;
+}

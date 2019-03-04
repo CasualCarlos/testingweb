@@ -1,0 +1,344 @@
+:root{
+  --width:100%;
+}
+
+* {
+  margin: 0;
+}
+
+#bodywrapper {
+  width: 100%;
+}
+header {
+  background-color: #eaeaea;
+  width: 100%;
+  height: 50px;
+}
+
+.rightheader{
+  width: 100%;
+  padding-top: 10px;
+  float: right;
+  position: absolute;
+}
+
+.rightheader img{
+  float: right;
+  padding-top: -5px;
+  margin-right: 2%;
+  width: 30px;
+}
+
+#shoppingcart {
+  position: sticky;
+  margin-left: 90%;
+  width: 2%;
+}
+#bigimage {
+  display: block;
+  margin-left: 46%;
+  margin-bottom: -45px;
+  width: 10%;
+  left: -1.8%;
+  position: relative;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  margin-left: 41.2%;
+  background-color: #ec726f;
+  overflow: hidden;
+  width: 280.6px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 150px;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 90%;
+  height: 50%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  width: 200px;
+  font-family: 'Roboto', Verdana, sans-serif;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#sporticon{
+  width: 25px;
+}
+
+#homeicon {
+  color: white;
+  width: 30px;
+}
+
+.navButton{
+  background-color
+  color: rgba(255, 255, 255, 0.0);
+  width: 37px;
+  position: fixed;
+  bottom:140px;
+  margin-left: -3.1%;
+  transition: 0.4s ease;
+}
+
+.navButton:hover {
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: 0.4s ease;
+}
+
+.overlayNav {
+  position: absolute;
+  bottom: -220%;
+  left: 170%;
+  background-color: #ec726f;
+  overflow: hidden;
+  width: 2.6px;
+  height: 150px;
+  transition: .4s ease;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.navButton:hover .overlayNav {
+  display: list-item;
+  transition: .4s ease;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  width: 280%;
+  left: 170%;
+  height: 160px;
+}
+
+.textNav {
+  color: white;
+  font-size: 23px;
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  font-family: 'Roboto', Verdana, sans-serif;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.navButton input{
+  cursor: pointer;
+  background-color:rgba(91,155,213, 1);
+  transition: 0.4s ease;
+  color: #f2f2f2;
+}
+
+.navButton form{
+  bottom: 50px;
+  position: relative;
+  transition: 0.4s ease;
+  transform:scale(1);
+}
+
+.navButton form:hover{
+  transition: 0.4s ease;
+  transform:scale(1.05);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  float: left;
+  background-color: #5b9bd5;
+  position: fixed;
+  top: 0px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: 'Roboto', Verdana, sans-serif;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  position: relative;
+  padding: 104px 24px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  transition-duration: 0.4s;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #ec726f;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* When the screen is less than 00 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 900px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 900px) {
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+#mainsection {
+  height: 1650px;
+  position: absolute;
+  left: 4.15%;
+  width: 95.85%;
+  background-image: url("../img/background.png");
+}
+
+.middlewrapper{
+  position: absolute;
+  width: 1052px;
+  margin-left: 21.5%;
+}
+
+
+.grid-container{
+  margin-top: 10%;
+  display: grid;
+  margin-left: 7%;
+  width: 88%;
+  background-color: white;
+  grid-template-columns: repeat(4, 17em);
+  grid-auto-rows: 100px;
+  border: 2px groove black;
+  grid-auto-rows: minmax(100px, auto);
+  grid-auto-columns: minmax(100px, auto);
+}
+.gridtitle img{
+  position: absolute;
+  margin-top: 6.4%;
+  margin-left: 47%;
+  border-top-style: groove;
+  border-right-style: groove;
+  border-left-style: groove;
+  width: 7%;
+}
+
+.grid-item .p-gender{
+  margin-top: -10px;
+  font-weight: 300;
+}
+
+
+.grid-item img {
+  padding: 2em;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.grid-item hr{
+}
+
+.grid-item h4,h5{
+  font-family: 'Roboto', Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 35%;
+}
+
+.grid-item .gridhr{
+  margin-bottom: 5%;
+  margin-left: 35%;
+}
+
+.grid-item:hover .gridhr{
+  margin-left: 40%;
+  margin-right: 8%;
+  transition: 0.4s ease;
+}
+
+.grid-item .gridhr{
+  transition: .4s ease;
+}
+
+.grid-item {
+  opacity: 1;
+  display: grid;
+  transition: 0.5s ease;
+  grid-template-columns: 2fr 1fr;
+}
+
+.grid-item:hover{
+  transform: scale(0.93);
+  transition: 0.5s ease;
+}
+
+.bottomfooter {
+  clear: left;
+  top: 1653px;
+  background-color: #eaeaea;
+  height: 52px;
+  width: 70%;
+  position: absolute;
+}
+
+.bottomfooter>p {
+  font-family: 'Roboto', Verdana, sans-serif;
+  text-align: center;
+  position: relative;
+  top: 16px;
+}
+
+.contact {
+  float: right;
+  background-color: #df4949;
+  width: 30%;
+  margin-left: 70%;
+  top: 1650px;
+  position: absolute;
+  height: 54px;
+}
+
+.contact>p {
+  font-family: 'Roboto', Verdana, sans-serif;
+  text-align: center;
+  color: #f2f2f2;
+  position: relative;
+  top: 16px;
+}
